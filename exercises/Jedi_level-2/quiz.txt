@@ -1,0 +1,20 @@
+1- Go emphasizes ease programming, if you use short declaration operator, u do not need to specify the type.
+2- Bit is an abbrev of Binary digit.
+3- most popular encoding technique is UTF-8.
+4- 7 billion processors can be found in todays comps.
+5- The ENIAC has 16,000 circuits or states.
+7- if you declare int var then the compiler will choose whther u have used int32 or int 64. Implementation specific types.
+8- A string in Go is a sequence of bytes also called slice of bytes.
+9- Go source code is always UTF-8.
+10- A string is also a sequence of bytes that represents unicode code points called runes.
+11- A coding scheme is basically the sequence of on/off states that represent a certain operation or function in a comp.
+12- There's no usage of While in Go.
+13- EBNF extended Backus-Naur Form for syntax speciying in langs.
+14- If we want to put 2 stmnts in a single line we can put semi colons otherwise the compiler puts ;s for us when stmnts are written in separate lines.
+15- If we write an initialization stsmnt in an if clause the scope of the var declared there remians within the if block only.
+16- A missing switch expression is by default taken as bool value true.
+17- Array lenghts are included in array type, i.e two arrays holding values of same data type can be different if they are of diff. lengths.
+18- A slice is built on top of an array, hence when we dynamically increase the length of an array a new array is built 
+    discarding the old array which takes processing power so for fixed length arrays we can use 'make' function.
+19- maps are unordered list.
+
