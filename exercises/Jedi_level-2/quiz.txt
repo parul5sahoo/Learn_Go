@@ -17,4 +17,43 @@
 18- A slice is built on top of an array, hence when we dynamically increase the length of an array a new array is built 
     discarding the old array which takes processing power so for fixed length arrays we can use 'make' function.
 19- maps are unordered list.
+20- Struct is a composite data type, complex data type and aggregate data type.
+21- The inner type gets upgraded to the outer type in embedded struct types.
+22- In golang we can swap vars by x, y = y, x.
+23- In go u can't have an unused var, it throws an err.
+24- If we dont add the fields while initilizing a var of a struct type then the valued passes are added to the fields in the sequence in which they are present in the struct type declaration.
+25- Go, is both OOP lang and not. It has types and methods and allows an OOP style, there is no type hierarhcy, also check the go.dev FAQs
+26- Go is object oriented, since it has :- 
+        1. Encapsulation
+                a. state("fields")
+                b. behaviour("methods")
+                c. exported & imported: viewable & not viewable
+        2. Reusability 
+                a. inheritance("embedded types")
+        3. Polymorphism
+                a. interface
+        4. Overrdidng
+                a. "promotion"
+
+27- In Traditional OOP
+        1. Clases
+                a. data structure describing a type of object
+                b. u create "instances/objects" from the class/blueprint.
+                c. classes hold both"
+                    i. state/data/fields
+                    ii. behaviour/methods
+                d. public/private
+        2. inheritance
+
+28- In Go:
+        1. you dont create classes, rather TYPE
+        2. you dont instantiate, you create a VALUE OF A TYPE
+        3. you can create user defined types. and declare vars and consts.
+29- ALIASING TYPES IS A BAD PRACTICE IN GO.
+30- One should follow architectural alignment in GO, lay the fields from largest to smallest e.g.:- int64, float32, bool but go for readability first.
+31- 
+
+
+
+
 
