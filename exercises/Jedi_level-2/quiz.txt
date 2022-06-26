@@ -63,6 +63,9 @@
 40- In go funcs are first class citizen, it can be used as var or can do anything any other type can do.
 41- We can assign a function to a variable.
 42- We can return a func type from a func and assign that returned func to a var and then execute that var as a func.
+43- "& and *" are two operators '&' gives the address of a value and '*' value stored at an address
+44- Methods set are the methods attached to a certain type.
+45- A method declared with non-pointer receiver can receive both pointer and non-pointer values, but pointer receivers can only receive pointer values.
 
 
 
