@@ -66,7 +66,7 @@
 43- "& and *" are two operators '&' gives the address of a value and '*' value stored at an address
 44- Methods set are the methods attached to a certain type.
 45- A method declared with non-pointer receiver can receive both pointer and non-pointer values, but pointer receivers can only receive pointer values.
-
+46- Any type with the method write(like a file) associated to it is of type "writer" which is an interface. and that with method read is a type reader.
 
 
 
