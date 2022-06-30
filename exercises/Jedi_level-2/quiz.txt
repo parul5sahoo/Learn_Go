@@ -67,8 +67,20 @@
 44- Methods set are the methods attached to a certain type.
 45- A method declared with non-pointer receiver can receive both pointer and non-pointer values, but pointer receivers can only receive pointer values.
 46- Any type with the method write(like a file) associated to it is of type "writer" which is an interface. and that with method read is a type reader.
-
-
-
+47- In 2007 Intel released it's first dual core CPU, and google started working on Golang to take advantage of the dual core CPU and develop parallelism.
+and hence go is the first major programming lang to have been written to natively take advantage of multiple cores programming.
+48- Unlike other programming langs Golang has concurrency in-built in the design making it easy to implement concurrency using Go.
+49- The difference between concurrency and parallelism, parallelism is the execution of more than one instructions in the multiple cores of a CPU, while concurrency is a code design pattern which allows to write code that has potential instructions that run in parallel.
+50- concurrency does not guarantee parallelism, having multiple core CPU does.
+51- Any go func or go method can be executed in it's own go routine by adding the `go` keyword before calling the func or method.
+52- The method set of an interface type is it's interface.
+53- The method set of a type determines the interface that the type implements and the methods that can be called using a receiver of that type.
+54- One can use the `runtime.GoMaxProcs` to define the mnax. no. of CPUs that the goroutines can use.
+55- Channels do block..
+56- we can specify a buffer channel, which allows some specific values to sit in the channel. basically we create a room for data or anything passed into it. 
+57- declaration of a send only channel is `identifier := make(chan <- type, buffer_val)` and that of a receive only channel is `identifier := make(<- chan type, buffer_val)`
+58- Read your channel type from left to right.
+59- You cannot assign a specific type of channel to a general channel
+60- However you can assign a general channel to a specific channel byt the channel type doesn't change.
 
 
