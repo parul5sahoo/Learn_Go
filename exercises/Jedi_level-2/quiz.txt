@@ -82,5 +82,8 @@ and hence go is the first major programming lang to have been written to nativel
 58- Read your channel type from left to right.
 59- You cannot assign a specific type of channel to a general channel
 60- However you can assign a general channel to a specific channel byt the channel type doesn't change.
-
+61- There are difft types of concurrent designs, fan in and fan outer
+62- you can use := instead of = when u r using 2 vars of which
+one is repeated and one is new but can't be done with blank identifier'_'
+63- The process of using context is to stop leaking of go routines, 
 
