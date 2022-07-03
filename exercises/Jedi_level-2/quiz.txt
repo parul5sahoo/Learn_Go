@@ -86,4 +86,24 @@ and hence go is the first major programming lang to have been written to nativel
 62- you can use := instead of = when u r using 2 vars of which
 one is repeated and one is new but can't be done with blank identifier'_'
 63- The process of using context is to stop leaking of go routines, 
+64- There are a couple difft ways to print out the err message:-
+        - fmt.Println()
+        - log.Println()
+        - log.Fatalln()
+                # os.Exit
+        - log.Panicln()
+                # deferred func run
+                # can use "recover"
+        - panic()
+65- Println formats using the default formats for its operands and writes to the standard output.
+66- When os.Exit() is called, the deferred func dont run.
+67- Preffered way of err logging is to use log package.
+68- when panic() is called all the deferred stmts run in LIFO order.
+69- having lowercase chars as initials in vars means that they won't be exported.
+70- go doc is a command to see documentation
+71- If we do not pass any arg to the go doc command it provides dov for the package on the current working directory.
+72- godoc when used with the -http flag creates a local replica of the golang docs website.
+73- godoc with the -src flag gives the source code for that pkg or method
+
+
 
