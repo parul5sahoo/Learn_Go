@@ -104,6 +104,16 @@ one is repeated and one is new but can't be done with blank identifier'_'
 71- If we do not pass any arg to the go doc command it provides dov for the package on the current working directory.
 72- godoc when used with the -http flag creates a local replica of the golang docs website.
 73- godoc with the -src flag gives the source code for that pkg or method
+74- Golang tests must : 
+        - be in a file that ends with "_test.go"
+        - put the file in the same package as the one being tested
+        - be in a func with a signature "func TestX(*testing.T)"
+
+75- Run a golang tested
+        - go test
+76- Deal with test failure
+        - Use the error, fail or related methods to signal failure.
+77- The expected and got idiom is very good practice to use while testing.
 
 
 
