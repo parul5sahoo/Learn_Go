@@ -1,0 +1,5 @@
+mode: set
+main/Benchmarking/02-cat/mystr/main.go:8.30,12.27 2 1
+main/Benchmarking/02-cat/mystr/main.go:17.2,17.10 1 1
+main/Benchmarking/02-cat/mystr/main.go:12.27,15.3 2 1
+main/Benchmarking/02-cat/mystr/main.go:20.31,22.2 1 1

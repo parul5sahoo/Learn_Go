@@ -114,6 +114,16 @@ one is repeated and one is new but can't be done with blank identifier'_'
 76- Deal with test failure
         - Use the error, fail or related methods to signal failure.
 77- The expected and got idiom is very good practice to use while testing.
+78- gofmt - formats go code
+        - govet - reports suspicious constructs
+        - golint - reports poor coding style
+79- Benchmarking allows u to measure the performance of a code.
+80- go test -cover is used to see analyse the test coverage of the code.
+81- go test -coverprofile c.out will add the test coverage details to the c.out file
+82- The go tool cover -html=c.out can be used to see the test coverage details in html format.
+NOTE ** Its good to learn a lang on your own by going through the docs through the cmd using --help flag** 
+83- len(slice) returns the no.of elements in that slice, but len(string) returns the no.of bytes in that string.
+84- Arithmetic operators apply to numeric values and yield a result of the same type as the first operand.
 
 
 

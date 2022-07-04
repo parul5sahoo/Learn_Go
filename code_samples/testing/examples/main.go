@@ -1,7 +1,7 @@
 package main
 
 import (
-	"/code_samples/testing/examples/acdc/acdc"
+	"github.com/parul5sahoo/Learn_Go/tree/master/code_samples/testing/examples/acdc"
 	"fmt"
 )
 
