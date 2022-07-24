@@ -17,7 +17,7 @@ func main() {
 
 	// f2, err := os.Open("no-file.txt")
 
-	//this code piece was for checking save err to a new file
+	//the above code piece was for checking how to save err to a new file
 
 	_, err := os.Open("no-file.txt")
 	if err != nil {
@@ -33,7 +33,7 @@ func main() {
 		 	... the fatal func call os.Exit(1) after writing the log msg
 		 */
 		// log.Fatalln(err)
-		// Fatalln is basically println() followed by a caall to os.Exit(1)
+		// Fatalln is basically println() followed by a call to os.Exit(1)
 		
 		// log.Panicln(err)
 
