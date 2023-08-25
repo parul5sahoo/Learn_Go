@@ -15,8 +15,8 @@ vals of the type as u wanna pass.
 10- Every value in go is of the type "empty interface" which is expressed as: "interface{}".
 11- Any no. used in Go is a constant.
 12- byte is alias for uint8 and rune which is an alias for int32.
-13- a code point in UTF-8 always represents a character.
+13- a code point in UTF-8 (UCS(Universal Coded Character Set) (Unicode) Transformation Format) always represents a character.
 14- Strings are immutable and Go uses UTF-8 chars.
-15- There are 2 types of constants types and untyped..
+15- There are 2 types of constants typed and untyped..
 16- iota is a special constant.
 17- iota can be used to have scaling values in a logic or expression.
