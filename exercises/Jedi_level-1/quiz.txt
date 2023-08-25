@@ -1,14 +1,17 @@
 Quiz:-
 
 1- The smallest standalone element of a program that expresses some action to be carried out is a statement.
-2- A combination of one or more explicit values, constants, variables, operators, operands and funcns that the programming lang interprets and computes to produce another value is an expression.
+2- A combination of one or more explicit values, constants, variables, operators, operands and funcns that 
+the programming lang interprets and computes to produce another value is an expression.
 3- The scope a  var is where u can access the var is true..
 4- A primitive data type is one which is buit into the lang and/or just a basic data type.
-5- A composit e data type allows u to compose to values of other data types.
+5- A composit e data type allows u to compose two values of other data types.
 6- An unassigned var holds the zero value for that data type.
 7- The short declar operator can be used in a go program at the code block level(in between curly braces) and not the package level.
-8- _(blank identifier) char allows u to "throw away returns" or "send returns into void" or basically tell the compiler that you're not gonna use the value returned by the funcn.
-9- A func that has a parameter of type, "...interface{}" this is called a variadic func and can take as many vals of the type as u wanna pass.
+8- _(blank identifier) char allows u to "throw away returns" or "send returns into void" or basically tell the compiler that 
+you're not gonna use the value returned by the funcn.
+9- A func that has a parameter of type, "...interface{}" this is called a variadic func and can take as many 
+vals of the type as u wanna pass.
 10- Every value in go is of the type "empty interface" which is expressed as: "interface{}".
 11- Any no. used in Go is a constant.
 12- byte is alias for uint8 and rune which is an for int32.
