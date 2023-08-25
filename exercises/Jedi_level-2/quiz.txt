@@ -2,7 +2,7 @@
 2- Bit is an abbrev of Binary digit.
 3- most popular encoding technique is UTF-8.
 4- 7 billion processors can be found in todays comps.
-5- The ENIAC has 16,000 circuits or states.
+5- The ENIAC(Electronic Numerical Integrator And Computer) has 16,000 circuits or states.
 7- if you declare int var then the compiler will choose whther u have used int32 or int 64. Implementation specific types.
 8- A string in Go is a sequence of bytes also called slice of bytes.
 9- Go source code is always UTF-8.
@@ -10,19 +10,26 @@
 11- A coding scheme is basically the sequence of on/off states that represent a certain operation or function in a comp.
 12- There's no usage of While in Go.
 13- EBNF extended Backus-Naur Form for syntax speciying in langs.
-14- If we want to put 2 stmnts in a single line we can put semi colons otherwise the compiler puts ;s for us when stmnts are written in separate lines.
-15- If we write an initialization stsmnt in an if clause the scope of the var declared there remians within the if block only.
+14- If we want to put 2 stmnts in a single line we can put semi colons otherwise the compiler puts ;s for us 
+when stmnts are written in separate lines.
+15- If we write an initialization stsmnt in an if clause the scope of the var declared 
+there remians within the if block only.
 16- A missing switch expression is by default taken as bool value true.
-17- Array lenghts are included in array type, i.e two arrays holding values of same data type can be different if they are of diff. lengths.
-18- A slice is built on top of an array, hence when we dynamically increase the length of an array a new array is built 
-    discarding the old array which takes processing power so for fixed length arrays we can use 'make' function.
+17- Array lenghts are included in array type, i.e two arrays holding values of same data type 
+can be different if they are of diff. lengths.
+18- A slice is built on top of an array, hence when we dynamically increase the 
+length of an array a new array is built 
+    discarding the old array which takes processing power so for fixed length 
+arrays we can use 'make' function.
 19- maps are unordered list.
 20- Struct is a composite data type, complex data type and aggregate data type.
 21- The inner type gets upgraded to the outer type in embedded struct types.
 22- In golang we can swap vars by x, y = y, x.
 23- In go u can't have an unused var, it throws an err.
-24- If we dont add the fields while initilizing a var of a struct type then the valued passes are added to the fields in the sequence in which they are present in the struct type declaration.
-25- Go, is both OOP lang and not. It has types and methods and allows an OOP style, there is no type hierarhcy, also check the go.dev FAQs
+24- If we dont add the fields while initilizing a var of a struct type then the valued passes 
+are added to the fields in the sequence in which they are present in the struct type declaration.
+25- Go, is both OOP lang and not. It has types and methods and allows an OOP style, 
+there is no type hierarhcy, also check the go.dev FAQs
 26- Go is object oriented, since it has :- 
         1. Encapsulation
                 a. state("fields")
@@ -50,12 +57,16 @@
         2. you dont instantiate, you create a VALUE OF A TYPE
         3. you can create user defined types. and declare vars and consts.
 29- ALIASING TYPES IS A BAD PRACTICE IN GO.
-30- One should follow architectural alignment in GO, lay the fields from largest to smallest e.g.:- int64, float32, bool but go for readability first.
+30- One should follow architectural alignment in GO, lay the fields from largest to 
+smallest e.g.:- int64, float32, bool but go for readability first.
 31- When u call a funcn you add arguments and when you define a func u add params.
 32- Everything in Go is PASS BY VALUE.
 33- A variadic param has to be the final param in a func declaration or anywhere.
-34- when you pass a series of ints as variadic params a slice of int is created but the pointer do not point any underlying array as they generally should, and the value passed in nil.
-35- The defer function is used to close a program ot innvokes a function whose execution is deferred to the moment the surrounding function returns, either because the surrounding function executed a return statement, reached the end of its function body, or because the corresponding goroutine is panicking.
+34- when you pass a series of ints as variadic params a slice of int is created but the 
+pointer do not point any underlying array as they generally should, and the value passed in nil.
+35- The defer function is used to close a program ot innvokes a function whose execution is 
+deferred to the moment the surrounding function returns, either because the surrounding 
+function executed a return statement, reached the end of its function body, or because the corresponding goroutine is panicking.
 36- Basically defer func executes when the func containing it exits.
 37- A value can be of more than one type.
 38- There exists a variadic param of empty interfaces, since each value has an underlying type of empty interfaces.
@@ -65,20 +76,30 @@
 42- We can return a func type from a func and assign that returned func to a var and then execute that var as a func.
 43- "& and *" are two operators '&' gives the address of a value and '*' value stored at an address
 44- Methods set are the methods attached to a certain type.
-45- A method declared with non-pointer receiver can receive both pointer and non-pointer values, but pointer receivers can only receive pointer values.
-46- Any type with the method write(like a file) associated to it is of type "writer" which is an interface. and that with method read is a type reader.
-47- In 2007 Intel released it's first dual core CPU, and google started working on Golang to take advantage of the dual core CPU and develop parallelism.
-and hence go is the first major programming lang to have been written to natively take advantage of multiple cores programming.
-48- Unlike other programming langs Golang has concurrency in-built in the design making it easy to implement concurrency using Go.
-49- The difference between concurrency and parallelism, parallelism is the execution of more than one instructions in the multiple cores of a CPU, while concurrency is a code design pattern which allows to write code that has potential instructions that run in parallel.
+45- A method declared with non-pointer receiver can receive both pointer and non-pointer values, 
+but pointer receivers can only receive pointer values.
+46- Any type with the method write(like a file) associated to it is of type "writer" which is an interface. 
+and that with method read is a type reader.
+47- In 2007 Intel released it's first dual core CPU, and google started working on Golang 
+to take advantage of the dual core CPU and develop parallelism.
+and hence go is the first major programming lang to have been written to natively 
+take advantage of multiple cores programming.
+48- Unlike other programming langs Golang has concurrency in-built in the design making 
+it easy to implement concurrency using Go.
+49- The difference between concurrency and parallelism, parallelism is the execution of
+more than one instructions in the multiple cores of a CPU, while concurrency is a code design pattern 
+which allows to write code that has potential instructions that run in parallel.
 50- concurrency does not guarantee parallelism, having multiple core CPU does.
 51- Any go func or go method can be executed in it's own go routine by adding the `go` keyword before calling the func or method.
 52- The method set of an interface type is it's interface.
-53- The method set of a type determines the interface that the type implements and the methods that can be called using a receiver of that type.
+53- The method set of a type determines the interface that the type implements and the methods 
+that can be called using a receiver of that type.
 54- One can use the `runtime.GoMaxProcs` to define the mnax. no. of CPUs that the goroutines can use.
 55- Channels do block..
-56- we can specify a buffer channel, which allows some specific values to sit in the channel. basically we create a room for data or anything passed into it. 
-57- declaration of a send only channel is `identifier := make(chan <- type, buffer_val)` and that of a receive only channel is `identifier := make(<- chan type, buffer_val)`
+56- we can specify a buffer channel, which allows some specific values to sit in the channel. 
+basically we create a room for data or anything passed into it. 
+57- declaration of a send only channel is `identifier := make(chan <- type, buffer_val)` and 
+that of a receive only channel is `identifier := make(<- chan type, buffer_val)`
 58- Read your channel type from left to right.
 59- You cannot assign a specific type of channel to a general channel
 60- However you can assign a general channel to a specific channel byt the channel type doesn't change.
@@ -101,7 +122,8 @@ one is repeated and one is new but can't be done with blank identifier'_'
 68- when panic() is called all the deferred stmts run in LIFO order.
 69- having lowercase chars as initials in vars means that they won't be exported.
 70- go doc is a command to see documentation
-71- If we do not pass any arg to the go doc command it provides dov for the package on the current working directory.
+71- If we do not pass any arg to the go doc command it provides dov for the 
+package on the current working directory.
 72- godoc when used with the -http flag creates a local replica of the golang docs website.
 73- godoc with the -src flag gives the source code for that pkg or method
 74- Golang tests must : 
